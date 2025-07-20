@@ -1,1 +1,147 @@
-# strona-roksana
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Roksana Piaskowska – Korepetycje z angielskiego</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #e0bbff, #b2f7ef);
+      color: #333;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h1, h2 {
+      color: #5a3e85;
+    }
+    ul { margin-left: 20px; }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      margin-bottom: 15px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    form button {
+      background: #5a3e85;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+    .icon {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .icon img {
+      max-width: 80px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Roksana Piaskowska</h1>
+    <p>Korepetycje z języka angielskiego A1–C1 • Online & Stargard</p>
+  </header>
+
+  <section>
+    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="book icon" /></div>
+    <h2>O mnie</h2>
+    <p>Hej! Mam na imię Roksana i prowadzę zajęcia z angielskiego dla dzieci, młodzieży i dorosłych – od A1 do C1. Lubię uczyć konkretnie, w miłej atmosferze i z dużą dawką praktycznej mowy.</p>
+    <p>Zajęcia prowadzę ONLINE oraz STACJONARNIE w Stargardzie. Dostosowuję je do Twoich potrzeb — konwersacje, gramatyka, przygotowanie do egzaminów, Business English.</p>
+  </section>
+
+  <section>
+    <h2>Oferta</h2>
+    <ul>
+      <li>Poziomy: A1, A2, B1, B2, C1</li>
+      <li>Dla: dzieci, młodzieży i dorosłych</li>
+      <li>Przygotowanie do egzaminów (ósmoklasista, matura)</li>
+      <li>Konwersacje, gramatyka, Business English</li>
+      <li>Indywidualne zajęcia 1:1</li>
+      <li>Online (Zoom/Meet) lub stacjonarnie - Stargard</li>
+    </ul>
+    <p><strong>Cena:</strong><br>60 min – od 80 zł<br>45 min – od 60 zł<br><em>Pierwsza lekcja próbna: 50% taniej</em></p>
+  </section>
+
+  <section>
+    <h2>Dlaczego warto?</h2>
+    <p>
+      Moje ceny odzwierciedlają pełne zaangażowanie i indywidualne podejście do każdego ucznia. Każdą lekcję przygotowuję samodzielnie, dopasowując materiały do Twojego poziomu, celu i stylu nauki.
+    </p>
+    <p>
+      Pracuję z uczniami od poziomu A1 aż po C1 – zarówno z osobami, które zaczynają przygodę z angielskim, jak i z tymi, które chcą osiągnąć płynność lub przygotować się do ważnych egzaminów.
+    </p>
+    <p>
+      Najważniejsze są dla mnie:
+      <ul>
+        <li>🔹 Zaufanie i komfort ucznia</li>
+        <li>🔹 Jasne tłumaczenie i logiczne podejście</li>
+        <li>🔹 Budowanie pewności siebie w mówieniu</li>
+        <li>🔹 Praktyczne użycie języka w codziennych sytuacjach</li>
+      </ul>
+    </p>
+    <p>
+      W nauczaniu stawiam na <strong>ciepłą atmosferę, motywację i konkrety bez presji</strong>. Twoje postępy są moją największą satysfakcją.
+    </p>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Masz pytania? Napisz do mnie przez formularz lub bezpośrednio:</p>
+    <p><strong>Email:</strong> piaskowskaroksanar@gmail.com<br>
+    <strong>Telefon:</strong> 500 737 462<br>
+    <strong>Lokalizacja:</strong> Stargard + online</p>
+  </section>
+
+  <section>
+    <h2>Formularz kontaktowy</h2>
+    <form action="https://formsubmit.co/piaskowskaroksanar@gmail.com" method="POST">
+      <input type="text" name="Imię" placeholder="Twoje imię" required>
+      <input type="email" name="Email" placeholder="Twój e‑mail" required>
+      <textarea name="Wiadomość" rows="5" placeholder="Np. chciałbym zajęcia dla dziecka / konwersacje / przygotowanie do matury" required></textarea>
+      <button type="submit">Wyślij wiadomość</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Roksana Piaskowska • Stargard & Online
+  </footer>
+
+</body>
+</html>
